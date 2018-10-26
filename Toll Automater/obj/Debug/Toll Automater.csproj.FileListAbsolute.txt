@@ -1,0 +1,14 @@
+C:\Users\FasiL\ictcodes\Toll Automater\Toll Automater\bin\Debug\Toll Automater.exe.config
+C:\Users\FasiL\ictcodes\Toll Automater\Toll Automater\bin\Debug\Toll Automater.exe
+C:\Users\FasiL\ictcodes\Toll Automater\Toll Automater\bin\Debug\Toll Automater.pdb
+C:\Users\FasiL\ictcodes\Toll Automater\Toll Automater\obj\Debug\Toll Automater.csprojAssemblyReference.cache
+C:\Users\FasiL\ictcodes\Toll Automater\Toll Automater\obj\Debug\Toll_Automater.MainForm.resources
+C:\Users\FasiL\ictcodes\Toll Automater\Toll Automater\obj\Debug\Toll_Automater.Properties.Resources.resources
+C:\Users\FasiL\ictcodes\Toll Automater\Toll Automater\obj\Debug\Toll Automater.csproj.GenerateResource.cache
+C:\Users\FasiL\ictcodes\Toll Automater\Toll Automater\obj\Debug\Toll Automater.csproj.CoreCompileInputs.cache
+C:\Users\FasiL\ictcodes\Toll Automater\Toll Automater\obj\Debug\Toll Automater.exe
+C:\Users\FasiL\ictcodes\Toll Automater\Toll Automater\obj\Debug\Toll Automater.pdb
+C:\Users\FasiL\ictcodes\Toll Automater\Toll Automater\bin\Debug\Toll Automater.exe.manifest
+C:\Users\FasiL\ictcodes\Toll Automater\Toll Automater\bin\Debug\Toll Automater.application
+C:\Users\FasiL\ictcodes\Toll Automater\Toll Automater\obj\Debug\Toll Automater.exe.manifest
+C:\Users\FasiL\ictcodes\Toll Automater\Toll Automater\obj\Debug\Toll Automater.application

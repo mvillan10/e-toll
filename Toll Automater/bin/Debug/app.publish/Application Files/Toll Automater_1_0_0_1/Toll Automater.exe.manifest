@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Toll Automater.exe" version="1.0.0.1" publicKeyToken="5c31b8bb6e98291c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Toll Automater" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Toll Automater.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Toll Automater.exe" size="29104">
+      <assemblyIdentity name="Toll Automater" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9hDnDMVI3GjBtPkoFfNcdvk9RU+1q9Q09Vm5SEIRU6U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Toll Automater.exe.config" size="398">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tBX8bzPWT/Ij4JXsxHTDn2NZ04g+fDhD5j4UXaQeET0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=YOYO-PC\FasiL" issuerKeyHash="e3596b1b4b6a7ed3e62d55cc2e7b37f2c933713c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>mnoxGCAyJRF58+FnI3n70kbBX1kC4facxzoOzqSjFd0=</DigestValue></Reference></SignedInfo><SignatureValue>WDlttmbkkhPkuZiCxZXpzi6PJWLDXMTi0kQgy+ja2qUCh16LnBM3qswZNs8xH6OfCp8gK5NL0Jz64DkMftIlWIgpwDqCtIvHDGQWoLfs8Zlq8e+6d14ptrJ4bFgaDcw0cuOU1odD+FQlpi4Atadbv2CvhYmOegaI1Hlt4qagl2c=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yTz2aqgKy1LFhf9xISfm7Ho68hrJ2lSAUkX3lkeD6nw9geYnAjBJRhEqYv3KO+MDz+dkB4WfD2G7xQ72g2FhpsWXJH1cpCRhhvMYsX7nUcum5NcAJJ9zk8Cjk2p5yWE3nQqJHFQNZGJB0E1ZSmqQwD0IWi3WKlf0P54IA7QGD1k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="dd15a3a4ce0e3ac79cf6e102595fc146d2fb792367e1f3791125322018317a9a" Description="" Url=""><as:assemblyIdentity name="Toll Automater.exe" version="1.0.0.1" publicKeyToken="5c31b8bb6e98291c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=YOYO-PC\FasiL</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>iqG1LWNdqoA90VOYgslaoS34nJjRYxUyDLPNDnVHXEM=</DigestValue></Reference></SignedInfo><SignatureValue>SFo2OtPBr3h/zvdsJm3HH3gwq8WQQALK0GBeZZ+8np+2kINVCwA+VtUQUxg5Aaud82kThsuBSA3PK2K/4eY2CdaDmGNEDQknBhVtXV7eX4BPm+Yiahx2T0ulc8+/O0tGe6vORnB+gKRpcxwgooIID7vUZLzkiPG6vMyngfBk6Uo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yTz2aqgKy1LFhf9xISfm7Ho68hrJ2lSAUkX3lkeD6nw9geYnAjBJRhEqYv3KO+MDz+dkB4WfD2G7xQ72g2FhpsWXJH1cpCRhhvMYsX7nUcum5NcAJJ9zk8Cjk2p5yWE3nQqJHFQNZGJB0E1ZSmqQwD0IWi3WKlf0P54IA7QGD1k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQH4M1O1O9kJtPw+Nxsu3d5DANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAWQBPAFkATwAtAFAAQwBcAEYAYQBzAGkATDAeFw0xODEwMjYxMjIyNTBaFw0xOTEwMjYxODIyNTBaMCUxIzAhBgNVBAMeGgBZAE8AWQBPAC0AUABDAFwARgBhAHMAaQBMMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDJPPZqqArLUsWF/3EhJ+bsejryGsnaVIBSRfeWR4PqfD2B5icCMElGESpi/co74wPP52QHhZ8PYbvFDvaDYWGmxZckfVykJGGG8xixfudRy6bk1wAkn3OTwKOTannJYTedCokcVA1kYkHQTVlKapDAPQhaLdYqV/Q/nggDtAYPWQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAFx4t7kfHec0Bh5OTQpo0X//eCNnJnxanjy+77XpM4wu7pVizsOTFQWmXl58OIdpHj3CCAIdTcKQJ5glCosvVSYcicMjC8iYO9E50Vpem3iTNJF4BUPuxdn7YAIC6OioPTgniFeq2XTXw6o4KeSelarRCD2oiwZCXTuifwY1LmsI</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
